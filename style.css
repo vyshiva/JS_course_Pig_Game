@@ -103,6 +103,28 @@ body {
   font-size: 30px;
 }
 
+.score {
+  position: absolute;
+  width: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Lato;
+  font-size: 20px;
+  top: 12px;
+}
+
+input{
+  width: 80px;
+  text-align: right;
+  padding: 5px;
+  margin-left: 10px;
+  border: 1px solid rgba(85, 85, 85, 0.32);
+}
+
+input:focus{
+  outline: none;
+}
+
 button {
   position: absolute;
   width: 200px;
@@ -143,7 +165,7 @@ i {
 }
 
 .btn-new {
-  top: 45px;
+  top: 55px;
 }
 
 .btn-roll {
@@ -156,13 +178,18 @@ i {
 
 .dice {
   position: absolute;
-  left: 50%;
   top: 178px;
   transform: translateX(-50%);
   height: 100px;
   box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
 }
 
+#dice-1 {
+  left: 40%;
+}
+#dice-2 {
+  left: 60%;
+}
 .winner {
   background-color: #f7f7f7;
 }
